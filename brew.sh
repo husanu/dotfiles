@@ -9,64 +9,70 @@ brew cleanup
 # A simple command line interface for the Mac App Store
 brew install mas
 
-brew install git \
-    jq \
-    tmux \
-    mc \
-    htop \
-    httpie \
-    wget \
-    zsh \
-    zsh-completions
+brew install --cask google-chrome
+brew install --cask slack
+brew install --cask visual-studio-code
+brew install --cask vlc
+brew install --cask grammarly
+brew install github # GitHub Desktop
+brew install --cask notion
+brew install --cask whatsapp
 
-brew install autossh \
-    awscli \
-    azure-cli \
-    docker-compose \
-    kubernetes-cli \
-    helm \
-    kind \
-    minikube \
+brew install git
 
-brew install node \
-    go \
-    operator-sdk \
-    vault \
-    terraform \
-    plantuml
+brew install jq
+brew install tmux
+brew install mc
+brew install htop
+brew install httpie
+brew install wget
 
+brew install zsh
+brew install zsh-completions
 
-brew install trash \
-    autojump \
-    gnupg \
-    grep \
-    tree \
-    watch \
-    watchman \
-    fzf
+brew install autossh
+brew install awscli
+brew install azure-cli
+brew install docker-compose
+brew install kubernetes-cli
+brew install helm
+brew install kind
+brew install minikube
 
+brew install node
+brew install go
+brew install operator-sdk
+brew install vault
+brew install terraform
+# brew install plantuml
+
+brew install trash
+brew install autojump
+brew install gnupg
+brew install grep
+brew install tree
+brew install watch
+brew install watchman
+brew install fzf
 
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
-brew install asdf
+# brew install asdf
 
-brew install --cask bartender
+# bartender - premium tray manager
+# brew install --cask bartender
 
 # Alfred is a productivity application for macOS
-brew install --cask alfred \
-    --cask spectacle \
-    --cask docker \
-    --cask firefox \
-    --cask keepassxc \
-    --cask postman \
-    --cask tunnelblick \
-    --cask virtualbox \
-    --cask vlc \
-    --cask visual-studio-code
+brew install --cask alfred
+brew install --cask spectacle
+brew install --cask docker
+brew install --cask firefox
+brew install --cask keepassxc
+brew install --cask postman
+brew install --cask tunnelblick
+brew install --cask dropbox
 
-brew install --cask boost-note
-
-
-
+# virtualbox not for m1 mac
+# brew install --cask virtualbox
 
 # sdkman
 # curl -s "https://get.sdkman.io" | bash
