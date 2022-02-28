@@ -15,6 +15,7 @@ brew install --cask visual-studio-code
 brew install --cask vlc
 brew install --cask grammarly
 brew install github # GitHub Desktop
+brew install --cask sourcetree
 brew install --cask notion
 brew install --cask whatsapp
 
