@@ -6,6 +6,9 @@ brew doctor
 brew update
 brew cleanup
 
+# Casks of drivers
+brew tap homebrew/cask-drivers
+
 # A simple command line interface for the Mac App Store
 brew install mas
 
@@ -18,6 +21,7 @@ brew install github # GitHub Desktop
 brew install --cask sourcetree
 brew install --cask notion
 brew install --cask whatsapp
+brew install --cask logitech-options
 
 brew install git
 
