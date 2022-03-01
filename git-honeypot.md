@@ -41,3 +41,14 @@ git config --global user.email "$USERNAME@egitr.com"
 ```bash
 chmod +x ~/.git-templates/hooks/pre-commit
 ```
+
+### using it globally
+
+```bash
+# https://github.com/git/git/blob/6675f501f6b987dbdb0dbeb1d2efeb5a27fc41a7/Documentation/config.txt#L621-L636
+git config --global core.hooksPath '~/.git-templates/hooks'
+```
+
+
+
+
