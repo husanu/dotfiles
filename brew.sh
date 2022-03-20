@@ -40,6 +40,7 @@ brew install awscli
 brew install azure-cli
 brew install docker-compose
 brew install kubernetes-cli
+brew install kubectx
 brew install helm
 brew install kind
 brew install minikube
