@@ -21,7 +21,8 @@ brew install github # GitHub Desktop
 brew install --cask sourcetree
 brew install --cask notion
 brew install --cask whatsapp
-brew install --cask logitech-options
+# logitech-options-plus is not on brew
+# brew install --cask logitech-options
 
 brew install git
 
@@ -41,6 +42,7 @@ brew install azure-cli
 brew install docker-compose
 brew install kubernetes-cli
 brew install kubectx
+brew install k9s
 brew install helm
 brew install kind
 brew install minikube
@@ -76,6 +78,10 @@ brew install --cask keepassxc
 brew install --cask postman
 brew install --cask tunnelblick
 brew install --cask dropbox
+# k8s explorer
+brew install --cask lens
+# mysql explorer
+brew install --cask dbeaver-community
 
 # virtualbox not for m1 mac
 # brew install --cask virtualbox
