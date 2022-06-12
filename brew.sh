@@ -82,6 +82,7 @@ brew install --cask dropbox
 brew install --cask lens
 # mysql explorer
 brew install --cask dbeaver-community
+brew install --cask thunderbird
 
 # virtualbox not for m1 mac
 # brew install --cask virtualbox
