@@ -50,6 +50,7 @@ brew install minikube
 brew install node
 brew install go
 brew install operator-sdk
+brew install kubebuilder
 brew install vault
 brew install terraform
 # brew install plantuml
