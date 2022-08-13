@@ -1,0 +1,19 @@
+[user]
+    name = And Rei
+    email = xxx@egitr.com
+[color]
+    ui = true
+[push]
+    followTags = true
+    autoSetupRemote = true
+[help]
+    autocorrect = 1
+[status]
+    showUntrackedFiles = all
+[core]
+	fileMode = false
+	editor = code --wait
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main

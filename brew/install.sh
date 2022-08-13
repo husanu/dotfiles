@@ -6,19 +6,23 @@ brew doctor
 brew update
 brew cleanup
 
-# Casks of drivers
-brew tap homebrew/cask-drivers
+# Casks of drivers (for logitech-options)
+# brew tap homebrew/cask-drivers
 
 ###
 
 declare -a CASK_APPS=(
-	# Browser
+	# Terminal emulator as alternative to Apple's Terminal app
+	"iterm2"
+	# Web browser
 	"google-chrome"
 	"firefox"
 	# Code Editor
 	"visual-studio-code"
-	# Video
+	"sublime-text"
+	# Multimedia player
 	"vlc"
+	# Utility to fix grammar errors and style issues in text
 	"grammarly"
 	# GitHub Desktop
 	"github"
@@ -30,14 +34,17 @@ declare -a CASK_APPS=(
 	"whatsapp"
 	# Alfred is a productivity application for macOS
 	"alfred"
+	# Control your tools with a few keystrokes
+	"raycast"
 	# Move and resize windows with ease
 	"spectacle"
 	# containers
 	"docker"
 	# Password manager
 	"keepassxc"
-	# API testing
-	"postman"
+	# HTTP and GraphQL Client
+	"insomnia"
+	# or "postman"
 	# VPN
 	"tunnelblick"
 	# File sharing
@@ -48,6 +55,9 @@ declare -a CASK_APPS=(
 	"dbeaver-community"
 	# email client
 	"thunderbird"
+	# File archiver
+	"keka"
+
 
 	# no virtualbox for m1
 	# "virtualbox"
@@ -128,6 +138,11 @@ declare -a CLI_APPS=(
 	"watchman"
 	# Command-line fuzzy finder written in Go
 	"fzf"
+	# Simple terminal UI for git commands
+	"lazygit"
+	# "gitui" ???
+	# Lazier way to manage everything docker
+	"lazydocker"
 )
 
 for APP in ${CLI_APPS[@]}; do
@@ -152,3 +167,6 @@ done
 # sdkman
 # curl -s "https://get.sdkman.io" | bash
 # source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# Remove outdated versions from the cellar.
+brew cleanup
