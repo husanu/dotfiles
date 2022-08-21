@@ -143,6 +143,10 @@ declare -a CLI_APPS=(
 	# "gitui" ???
 	# Lazier way to manage everything docker
 	"lazydocker"
+	# Extendable version manager with support for Ruby, Node.js, Erlang & more
+	"asdf"
+	# Imaging utility to install operating systems to a microSD card
+	"raspberry-pi-imager"
 )
 
 for APP in ${CLI_APPS[@]}; do
@@ -160,9 +164,6 @@ done
 
 # Draw UML diagrams
 # brew install plantuml
-
-# Extendable version manager with support for Ruby, Node.js, Erlang & more
-# brew install asdf
 
 # sdkman
 # curl -s "https://get.sdkman.io" | bash
