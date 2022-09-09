@@ -58,6 +58,8 @@ declare -a CASK_APPS=(
 	# File archiver
 	"keka"
 
+	# Extremely fast tool to remove dupes and other lint from your filesystem
+	"rmlint"
 
 	# no virtualbox for m1
 	# "virtualbox"
